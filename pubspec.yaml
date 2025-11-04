@@ -1,0 +1,22 @@
+name: trainsmart_football
+description: TrainSmart Football - Replit starter template (web)
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # Add firebase packages after importing to Replit / local dev:
+  # firebase_core: ^2.4.0
+  # cloud_firestore: ^4.4.0
+  # firebase_auth: ^4.2.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lang/en.json
+    - assets/lang/bg.json
